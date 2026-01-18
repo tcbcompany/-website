@@ -1,9 +1,10 @@
 body {
-  background: white;
+  background: #ffffcc;
   color: black;
-  font-family: "Comic Sans MS", cursive;
+  margin: 8;
+  font-family: "Trebuchet MS", cursive;
 }
 
 h1 {
-  font-family: Courier New, monospace;
+  font-family: Lucida Calligraphy, cursive;
 }
