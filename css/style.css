@@ -1,11 +1,13 @@
 body {
-  background: white;
   color: black;
-  margin: 8;
+  margin: 8px;
   font-family: Arial, sans-serif;
-  background-color: lightblue;
+  background-image: url("Images/reseau_decentralise.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1, h2 {
-  font-family: Lucida Calligraphy, cursive;
+  font-family: "Lucida Calligraphy", cursive;
 }
