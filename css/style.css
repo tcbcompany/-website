@@ -1,8 +1,8 @@
 body {
   color: black;
-  margin: 8px;
+  margin: 8;
   font-family: Arial, sans-serif;
-  background-image: url("Images/reseau_decentralise.png");
+  background-image: url("Images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
