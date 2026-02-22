@@ -4,18 +4,45 @@
   <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8">
   <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Common style for all sections */
+    .section {
+      height: 400px;                  /* fixed height, can change */
+      width: 100%;                     /* full width */
+      display: flex;                   /* so we can center text */
+      align-items: center;             /* vertical center */
+      justify-content: center;         /* horizontal center */
+      color: white;                    /* text color */
+      font-size: 2em;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* easier to read on images */
+      background-size: cover;          /* image fills the section */
+      background-position: center;     /* image centered */
+    }
+
+    /* Example different background images */
+    .section1 {
+      background-image: url('Images/image1.jpg');
+    }
+
+    .section2 {
+      background-image: url('Images/image2.jpg');
+    }
+
+    .section3 {
+      background-image: url('Images/image3.jpg');
+    }
+  </style>
+  
 </head>
 <body>
 
-
-<svg viewBox="0 0 100 100" width="100%" height="100%">
-    <rect x="10" y="0" width="85" height="13" fill="black" />
-    <rect x="0" y="0" width="15" height="100" fille="black" />
-</svg>
-
-
-  
-<h1 style="text-align: center">Le Fédiverse</h1>
+<div class="section section1">
+  <h1 style="text-align: center">Le Fédiverse</h1>
 <a href="partie1.html">
   Qu'est-ce-que le Fédiverse ?
 </a>
@@ -28,5 +55,10 @@ Différence entre un réseau traditionnel et le fédiverse ?
   <a href="partie4.html"><br>
   Des avantages mais aussi des limites
 </a>
+</div>
 </body>
 </html>
+
+
+  
+
